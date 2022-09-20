@@ -24,7 +24,7 @@ body {
 }
 .stats-preview-card {
   max-width: 120rem;
-  max-height: 100%;
+
   background-color: hsl(244, 38%, 16%);
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -36,15 +36,16 @@ body {
   height: 100%;
   width: 100%;
 }
-.imbBx::after {
+.imgBx::after {
   position: absolute;
-  content: "Eu sunt sanziana";
+  content: "";
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  background: hsl(244, 38%, 16%);
+  background: rgba(147, 92, 219, 0.247);
 }
+
 .imgBx .img {
   position: relative;
   height: 100%;
@@ -52,6 +53,9 @@ body {
   object-fit: cover;
 }
 .contentBx {
+  position: relative;
+  max-width: 60rem;
+  max-height: 60rem;
   padding: 6.4rem 9.6rem 6.4rem 6.4rem;
 }
 .header {

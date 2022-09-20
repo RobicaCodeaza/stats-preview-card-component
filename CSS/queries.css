@@ -4,15 +4,30 @@
     /* 9px/16px = 56.25% */
     font-size: 56.25%;
   }
+  .contentBx {
+    padding: 5.2rem 8rem 5.2rem 5.2rem;
+  }
 }
 /* Tablets */
 @media (max-width: 59em) {
   html {
     font-size: 50%;
   }
+  .contentBx {
+    padding: 3.2rem 4.4rem 3.2rem 3.2rem;
+  }
 }
+@media (max-width: 48em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
 /* Mobile */
 @media (max-width: 36em) {
+  body {
+    padding: 9.6rem;
+  }
   .stats-preview-card {
     grid-template-columns: 1fr;
     grid-template-rows: 33% 67%;
@@ -23,7 +38,7 @@
   }
   .contentBx {
     text-align: center;
-    padding: 3.2rem;
+    padding: 4.4rem;
   }
   .content-text {
     margin-bottom: 4.4rem;
