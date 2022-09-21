@@ -35,8 +35,9 @@ body {
   position: relative;
   height: 100%;
   width: 100%;
+  background-color: rgba(147, 92, 219, 0.247);
 }
-.imgBx::after {
+/* .imgBx::after {
   position: absolute;
   content: "";
   top: 0;
@@ -44,13 +45,14 @@ body {
   height: 100%;
   width: 100%;
   background: rgba(147, 92, 219, 0.247);
-}
+} */
 
 .imgBx .img {
   position: relative;
   height: 100%;
   width: 100%;
   object-fit: cover;
+  mix-blend-mode: multiply;
 }
 .contentBx {
   position: relative;
